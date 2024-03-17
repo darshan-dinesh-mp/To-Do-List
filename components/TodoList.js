@@ -220,7 +220,7 @@ export default function TodoList({ navigation }) {
             <TextInput
               value={value}
               onChangeText={getInput}
-              placeholder='Enter your Goal'
+              placeholder='Enter your Goallllllllllllllllllllllllllllllllll'
               placeholderTextColor='gray'
               style={{
                 borderWidth: 0.5,
@@ -245,8 +245,6 @@ export default function TodoList({ navigation }) {
           </View>
         ) : null
       }
-
-
 
       {
         !toggleRecentDelete ? (
