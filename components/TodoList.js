@@ -220,7 +220,7 @@ export default function TodoList({ navigation }) {
             <TextInput
               value={value}
               onChangeText={getInput}
-              placeholder='Enter your Goalllllllllllllllllllllllllllllll'
+              placeholder='Enter your Goal'
               placeholderTextColor='gray'
               style={{
                 borderWidth: 0.5,
