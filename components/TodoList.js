@@ -153,7 +153,7 @@ export default function TodoList({ navigation }) {
               backgroundColor: "#b3dbdd",
               height: "90%"
             }}>
-              <Text>Tap on the task to remove</Text>
+              <Text style={{color: "black"}}>Tap on the task to remove</Text>
               <FlatList
                 data={list}
                 renderItem={({ item, index }) => (
@@ -187,7 +187,7 @@ export default function TodoList({ navigation }) {
               backgroundColor: "#b3dbdd",
               height: "90%"
             }}>
-              <Text>Tap on the task to remove</Text>
+              <Text  style={{color: "black"}}>Tap on the task to remove</Text>
               <FlatList
                 data={deletedList}
                 renderItem={({ item, index }) => (
@@ -227,6 +227,7 @@ export default function TodoList({ navigation }) {
                 borderRadius: 5,
                 width: "80%",
                 textAlign: 'center',
+                color:'black'
               }}
             />
             <Text
