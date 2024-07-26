@@ -8,7 +8,7 @@ export default function Router() {
     const Stack = createNativeStackNavigator();
     return (
         <NavigationContainer>
-            <Stack.Navigator initialRouteName="Welcome">
+            <Stack.Navigator initialRouteName="Welcome" screenOptions={{ headerShown: false, animation: 'fade_from_bottom' }}>
                 <Stack.Screen name="Welcome" component={Welcome} options={{headerShown: false}}/>
                 <Stack.Screen name="TodoList" component={TodoList} options={{headerShown: false}}/>
             </Stack.Navigator>
